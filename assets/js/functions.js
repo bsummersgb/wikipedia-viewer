@@ -8,17 +8,14 @@ $( document ).ready(function() {
       url: url,
       dataType: 'jsonp',
       success: function(data) {
-        $('.test').html(data[1][2], data[1][1], data[1][2]); // iterate through with loop
-
-
-
-
+        for (var i = 0; i < data[1].length; i++) {
+        $('ul').append("<li>" + data[1][i] + " : " + data[2][i]+"</li>");
+        }
       },
       error: function() {
         $('.test').html("You aint got no results");
-
       }
-    })
+    });
 
   });
 
