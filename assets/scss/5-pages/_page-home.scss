@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  align-content: center;
+}
+
+.output li {
+  background-color: blue;
+  padding: .5em;
+  margin-top: .5em;
+}
