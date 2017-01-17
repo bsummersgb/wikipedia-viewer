@@ -5,23 +5,23 @@ $white          : #fff;
 $black          : #000;
 $grey           : #878787;
 $regent-st-blue : #add8e6;
-$river-bed      : #48525c;
-$yellow-orange  : #ffa949;
+$san-juan       : #2F4073;
+$cape-honey     : #FFE4AA;
 
 // Functional Colour Variables
 
-$colour-prim        : $yellow-orange;
-$colour-sec         : $river-bed;
+$colour-prim        : $cape-honey;
+$colour-sec         : $san-juan;
 
 $colour-text-light  : $white;
 $colour-text-base   : $grey;
-$colour-text-dark   : $river-bed;
+$colour-text-dark   : $san-juan;
 
 $colour-border-light : lighten($grey, 35%);
-$colour-border-dark  : $yellow-orange;
+$colour-border-dark  : $cape-honey;
 
-$colour-link-default : $yellow-orange;
-$colour-link-visited : $regent-st-blue;
+$colour-link-default : $san-juan;
+$colour-link-visited : $san-juan;
 
 $colour-shadow       : rgba($black,.8);
 $colour-body         : $white;
